@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Dancing+Script:wght@400;500&family=Gochi+Hand&family=Great+Vibes&family=Handlee&family=Indie+Flower&family=Kaushan+Script&family=Lato:wght@400;700&family=Lumanosimo&family=Molengo&family=Montserrat&family=Mooli&family=Open+Sans:wght@400;500;600;700&family=Roboto:wght@400;500;700&family=Staatliches&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: antiquewhite;
+}
+nav{
+    font-family: 'Lato', sans-serif;
+}
+nav ul{
+
+    display: flex;
+list-style-type: none;
+height: 60px;
+background-color: black ;
+}
+.brand{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    padding: 0% 16.5px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+
+    display: flex;
+}
+.brand img{
+    padding: 0% 18px;
+}
+.bottom{
+    position: -webkit-sticky;
+    position: sticky;
+    height: 120px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    flex-direction: column;
+    bottom: 0;
+}
+i{
+    cursor: pointer;
+
+}
+.icons{
+    margin-top: 14px;
+
+}
+.container{
+    min-height: 70vh;
+    background-color: #000;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+display: flex;
+margin: 23px auto;
+width: 92%;
+border-radius: 12px;
+padding: 34px;
+background-image: url("./wallpaperflare.com_wallpaper.jpg");
+object-fit: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+#myProgressbar{
+    width: 80vw;
+    text-align: center;
+}
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: #fff;
+    color: #000;
+    margin: 12px 0%;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+*::selection{
+    background-color: #000;
+    color: #fff;
+}
+h1::selection{
+    background-color: white;
+    color: #000;
+}
+ 
+.songItem img{
+width: 50px;
+border-radius: 30px;
+margin:0% 23px 0%;
+}
+
+
+.timestamp{
+    margin: 0% 23px;
+}
+.songItemsContainer{
+    margin-top: 50px;
+} 
+
+/* .songInfo{
+    position: absolute;
+    left: 0;
+} */
+
+.songInfo img{
+    opacity: 0;
+    transition: 0.4s ease-in;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
