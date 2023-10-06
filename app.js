@@ -10,16 +10,16 @@ let songItems = Array.from(document.getElementsByClassName("songItem"));
 
 // var
 let songs = [
-{songName:"Karachi Chal - Talha-Younus",filePath:"songs/1.mp3",coverPath:"covers/1.jpg"},
-{songName:"Karachi Mera - Talha-Younus",filePath:"songs/2.mp3",coverPath:"covers/2.jpg"},
-{songName:"Shub  -  Shub",filePath:"songs/3.mp3",coverPath:"covers/3.jpg"},
-{songName:"Divine  -  Divine",filePath:"songs/4.mp3",coverPath:"covers/4.jpg"},
-{songName:"Mountains  -  Girl",filePath:"songs/5.mp3",coverPath:"covers/5.jpg"},
-{songName:"Love Nevanty   -   Kaala Larka",filePath:"songs/6.mp3",coverPath:"covers/6.jpg"},
-{songName:"No Love  - Shubh",filePath:"songs/7.mp3",coverPath:"covers/7.jpg"},
-{songName:"We Rollin  - Shubh",filePath:"songs/8.mp3",coverPath:"./cover1.jpeg"},
-{songName:"Love  - Shubh",filePath:"songs/9.mp3",coverPath:"covers/1.jpg"},
-{songName:"Ek Din Pyaar  - McStan",filePath:"songs/9.mp3",coverPath:"covers/5.jpg"},
+{songName:"Karachi Chal",filePath:"songs/1.mp3",coverPath:"covers/1.jpg"},
+{songName:"Karachi Mera",filePath:"songs/2.mp3",coverPath:"covers/2.jpg"},
+{songName:"Shub",filePath:"songs/3.mp3",coverPath:"covers/3.jpg"},
+{songName:"Divine",filePath:"songs/4.mp3",coverPath:"covers/4.jpg"},
+{songName:"Mountains",filePath:"songs/5.mp3",coverPath:"covers/5.jpg"},
+{songName:"Love Nevanty",filePath:"songs/6.mp3",coverPath:"covers/6.jpg"},
+{songName:"No Love",filePath:"songs/7.mp3",coverPath:"covers/7.jpg"},
+{songName:"We Rollin",filePath:"songs/8.mp3",coverPath:"./cover1.jpeg"},
+{songName:"Love",filePath:"songs/9.mp3",coverPath:"covers/1.jpg"},
+{songName:"Ek Din Pyaar",filePath:"songs/9.mp3",coverPath:"covers/5.jpg"},
 
 
 
